@@ -188,7 +188,7 @@ export const LeadEnrichmentForm = ({ onSubmissionComplete }: LeadEnrichmentFormP
         submissionData.append('email', formData.email);
       }
 
-      const response = await fetch('https://adham131.app.n8n.cloud/webhook-test/lovable-webhook', {
+      const response = await fetch('https://adham131.app.n8n.cloud/webhook-test/v1-aga', {
         method: 'POST',
         body: submissionData,
       });
